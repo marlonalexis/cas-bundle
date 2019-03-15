@@ -1,5 +1,5 @@
 {
-    "name": "telconetSSO/cas-bundle",
+    "name": "telconet-sso/cas-bundle",
     "type": "symfony-bundle",
     "description": "PHPCas wrapper for Symfony2, Symfony3, Symfony4",
     "homepage": "https://github.com/l3-team/CasBundle",
