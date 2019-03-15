@@ -1,0 +1,30 @@
+{
+    "name": "telconetSSO/cas-bundle",
+    "type": "symfony-bundle",
+    "description": "PHPCas wrapper for Symfony2, Symfony3, Symfony4",
+    "homepage": "https://github.com/l3-team/CasBundle",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Pierre Pélisset",
+            "email": "pierre.pelisset@univ-lille3.fr"
+        },
+	{
+            "name": "Mathieu Hétru",
+            "email": "mathieu.hetru@univ-lille.fr"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "jasig/phpcas": "~1.3",
+	"symfony/symfony": "~2,>=2.8",
+	"symfony/http-foundation": "~2.1",
+        "symfony/security": "~2.1",
+        "symfony/routing": "~2.1"
+    },
+    "autoload": {
+        "psr-4": { "TelconetSSO\\Bundle\\CasBundle\\": "" }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

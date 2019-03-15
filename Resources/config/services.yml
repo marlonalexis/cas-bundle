@@ -1,0 +1,8 @@
+services:
+    cas.security.authentication.provider:
+        class: TelconetSSO\Bundle\CasBundle\Security\CasProvider
+        arguments: ['', '']
+
+    cas.security.authentication.listener:
+        class: TelconetSSO\Bundle\CasBundle\Security\CasListener
+        arguments: ['@security.token_storage', '@security.authentication.manager', %cas%]
